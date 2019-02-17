@@ -85,3 +85,14 @@ Tasks of an Orchestrator
 ```
 docker-compose run --rm --no-deps foo_service rake db:reset
 ```
+
+### Kubernetes
+
+* In a cluster, you have a small and odd number of masters and as many worker nodes as needed.
+
+```
+$ minikube start
+$ kubectl cluster-info
+$ kubectl get nodes
+$ kubectl get pods
+```
